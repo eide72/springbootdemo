@@ -48,7 +48,7 @@ public class DemoApplication {
 //        }
     }
 
-//    @AutoLog(value = "编辑DEMO")
+    @AutoLog(value = "编辑DEMO")
     @GetMapping("/demo")
     public String demo() throws Exception {
         int b = 10/0;

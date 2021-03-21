@@ -51,15 +51,14 @@ public class DemoApplication {
 //    @AutoLog(value = "编辑DEMO")
     @GetMapping("/demo")
     public String demo() throws Exception {
-//        int b = 10/0;
-//        try {
-//            int a = 10/0;
-//        } catch (Exception e) {
-//            throw new RuntimeException("异常测试" + e.getMessage());
-//        } finally {
-//            System.out.println("仍继续执行");
-//        }
-//        test();
+        int b = 10/0;
+        try {
+            int a = 10/0;
+        } catch (Exception e) {
+            throw new RuntimeException("异常测试" + e.getMessage());
+        } finally {
+            System.out.println("仍继续执行");
+        }
         System.out.println("仍继续执行");
         return "Hello World!";
     }

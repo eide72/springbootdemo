@@ -51,7 +51,7 @@ public class DemoApplication {
     @AutoLog(value = "编辑DEMO")
     @GetMapping("/demo")
     public String demo() throws Exception {
-        int b = 10/0;
+        int b = 10/1;
         try {
             int a = 10/0;
         } catch (Exception e) {

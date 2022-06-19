@@ -57,8 +57,8 @@ public class TestController {
 
     @GetMapping("/demo3")
     public String demo3() {
-        TestEntity entity = new TestEntity("eide", "111111");
-        TestEntity entity2 = new TestEntity("curry", "222222");
+        TestEntity entity = new TestEntity();
+        TestEntity entity2 = new TestEntity();
         String tmpStr = "9999999";
         System.out.println(JSONObject.toJSONString(entity));
         TestRuntimeException testRuntimeException = new TestRuntimeException("异常测试");

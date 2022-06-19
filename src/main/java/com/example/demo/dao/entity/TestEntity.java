@@ -4,10 +4,10 @@ public class TestEntity {
     private String name;
     private String password;
 
-    public TestEntity(String name, String password) {
-        this.name = name;
-        this.password = password;
-    }
+//    public TestEntity(String name, String password) {
+//        this.name = name;
+//        this.password = password;
+//    }
 
     public String getName() {
         return name;
